@@ -42,4 +42,33 @@ public class DealershipTest {
         dealership.addCar(car3);
         assertEquals(3, dealership.getVehicles().size());
     }
+
+    @Test
+    public void canSellCar() {
+        dealership.addCar(car1);
+        dealership.addCar(car2);
+        dealership.addCar(car3);
+        assertEquals(3, dealership.getVehicles().size());
+        dealership.sellCar(car1);
+        assertEquals(2, dealership.getVehicles().size());
+    }
+
+    @Test
+    public void tillStartsZero() {
+        assertEquals(0, dealership.getTill(), 0.01);
+    }
+
+    @Test
+    public void canAddToTill() {
+        dealership.addCar(car1);
+        dealership.sellCar(car1);
+    }
+
+    @Test
+    public void cannotSellIfCarDoesntExist() {
+        dealership.addCar(car1);
+        dealership.addCar(car3);
+        dealership.sellCar(car2);
+        assertEquals(2, dealership.getVehicles().size());
+    }
 }

@@ -31,4 +31,11 @@ public class Dealership {
     public void addCar(Vehicle car) {
         vehicles.add(car);
     }
+
+    public void sellCar(Vehicle car) {
+        if(vehicles.contains(car)){
+            till += car.getPrice();
+            vehicles.remove(car);
+        }
+    }
 }

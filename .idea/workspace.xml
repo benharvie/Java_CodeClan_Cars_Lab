@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="841d894a-463e-47a9-984d-533e9cfc25f9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CodeClanCars/Dealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeClanCars/Dealership.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DealershipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DealershipTest.java" afterDir="false" />
     </list>
@@ -118,14 +117,16 @@
       <file leaf-file-name="DealershipTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DealershipTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="459">
+              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="73" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#640#641#0" expanded="true" />
                 <element signature="e#661#662#0" expanded="true" />
                 <element signature="e#798#799#0" expanded="true" />
                 <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#1408#1409#0" expanded="true" />
+                <element signature="e#1438#1439#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,8 +135,8 @@
       <file leaf-file-name="Dealership.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CodeClanCars/Dealership.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="448">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#379#380#0" expanded="true" />
@@ -573,9 +574,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DealershipTest.addsCars">
+  <component name="RunManager" selected="JUnit.DealershipTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="DealershipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanCars_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DealershipTest" />
+      <option name="METHOD_NAME" value="tillStartsZero" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="DealershipTest.addsCars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanCars_test" />
@@ -594,13 +612,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DealershipTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DealershipTest.canSellCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanCars_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DealershipTest" />
-      <option name="METHOD_NAME" value="hasName" />
+      <option name="METHOD_NAME" value="canSellCar" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -611,13 +629,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DealershipTest.hasNoCars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DealershipTest.cannotSellIfCarDoesntExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanCars_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DealershipTest" />
-      <option name="METHOD_NAME" value="hasNoCars" />
+      <option name="METHOD_NAME" value="cannotSellIfCarDoesntExist" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -628,31 +646,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HybridTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DealershipTest.tillStartsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanCars_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HybridTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PetrolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanCars_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PetrolTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="DealershipTest" />
+      <option name="METHOD_NAME" value="tillStartsZero" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -701,19 +702,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.HybridTest" />
-      <item itemvalue="JUnit.PetrolTest" />
-      <item itemvalue="JUnit.DealershipTest.hasName" />
-      <item itemvalue="JUnit.DealershipTest.hasNoCars" />
       <item itemvalue="JUnit.DealershipTest.addsCars" />
+      <item itemvalue="JUnit.DealershipTest.canSellCar" />
+      <item itemvalue="JUnit.DealershipTest.tillStartsZero" />
+      <item itemvalue="JUnit.DealershipTest" />
+      <item itemvalue="JUnit.DealershipTest.cannotSellIfCarDoesntExist" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DealershipTest" />
+        <item itemvalue="JUnit.DealershipTest.cannotSellIfCarDoesntExist" />
+        <item itemvalue="JUnit.DealershipTest.tillStartsZero" />
+        <item itemvalue="JUnit.DealershipTest.canSellCar" />
         <item itemvalue="JUnit.DealershipTest.addsCars" />
-        <item itemvalue="JUnit.DealershipTest.hasNoCars" />
-        <item itemvalue="JUnit.DealershipTest.hasName" />
-        <item itemvalue="JUnit.PetrolTest" />
-        <item itemvalue="JUnit.HybridTest" />
       </list>
     </recent_temporary>
   </component>
@@ -731,21 +732,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EngineTest_hasCapacity - 2018.10.17 at 14h 25m 08s.xml">
-      <configuration name="EngineTest.hasCapacity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TyreTest_hasSize - 2018.10.17 at 14h 28m 35s.xml">
-      <configuration name="TyreTest.hasSize" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ElectricTest_hasMake - 2018.10.17 at 14h 34m 48s.xml">
-      <configuration name="ElectricTest.hasMake" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ElectricTest_hasModel - 2018.10.17 at 14h 35m 16s.xml">
-      <configuration name="ElectricTest.hasModel" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ElectricTest_hasPrice - 2018.10.17 at 14h 35m 49s.xml">
-      <configuration name="ElectricTest.hasPrice" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_CodeClanCars_test - 2018.10.17 at 14h 36m 54s.xml">
       <configuration name="All in CodeClanCars_test" configurationId="JUnit" />
     </history-entry>
@@ -760,6 +746,21 @@
     </history-entry>
     <history-entry file="DealershipTest_hasNoCars - 2018.10.17 at 14h 53m 15s.xml">
       <configuration name="DealershipTest.hasNoCars" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealershipTest_addsCars - 2018.10.17 at 14h 54m 19s.xml">
+      <configuration name="DealershipTest.addsCars" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealershipTest_canSellCar - 2018.10.17 at 14h 56m 08s.xml">
+      <configuration name="DealershipTest.canSellCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealershipTest_tillStartsZero - 2018.10.17 at 14h 57m 21s.xml">
+      <configuration name="DealershipTest.tillStartsZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealershipTest - 2018.10.17 at 14h 59m 24s.xml">
+      <configuration name="DealershipTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealershipTest_cannotSellIfCarDoesntExist - 2018.10.17 at 15h 00m 38s.xml">
+      <configuration name="DealershipTest.cannotSellIfCarDoesntExist" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1007,22 +1008,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DealershipTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="459">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="73" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#640#641#0" expanded="true" />
             <element signature="e#661#662#0" expanded="true" />
             <element signature="e#798#799#0" expanded="true" />
             <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CodeClanCars/Dealership.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="448">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#379#380#0" expanded="true" />
