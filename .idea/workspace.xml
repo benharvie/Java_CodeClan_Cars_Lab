@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="841d894a-463e-47a9-984d-533e9cfc25f9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicles/Electric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vehicles/Electric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicles/Hybrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vehicles/Hybrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicles/Petrol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vehicles/Petrol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vehicles/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ElectricTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ElectricTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,7 +24,7 @@
       <file leaf-file-name="Vehicle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Vehicle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="149">
               <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
                 <element signature="e#495#496#0" expanded="true" />
@@ -44,29 +41,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hybrid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Hybrid.java">
+      <file leaf-file-name="ElectricTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ElectricTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Petrol.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Petrol.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Electric.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Electric.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="342">
+              <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -407,6 +401,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Vehicles/Hybrid.java" />
         <option value="$PROJECT_DIR$/src/main/java/Vehicles/Petrol.java" />
         <option value="$PROJECT_DIR$/src/main/java/Vehicles/Electric.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ElectricTest.java" />
       </list>
     </option>
   </component>
@@ -506,18 +501,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TyreTest.hasSize">
+  <component name="RunManager" selected="JUnit.All in CodeClanCars_test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="EngineTest.hasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in CodeClanCars_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanCars_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EngineTest" />
-      <option name="METHOD_NAME" value="hasCapacity" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -527,12 +522,12 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EngineTest.hasMake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElectricTest.hasMake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanCars_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EngineTest" />
+      <option name="MAIN_CLASS_NAME" value="ElectricTest" />
       <option name="METHOD_NAME" value="hasMake" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -544,13 +539,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EngineTest.hasModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElectricTest.hasModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanCars_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EngineTest" />
+      <option name="MAIN_CLASS_NAME" value="ElectricTest" />
       <option name="METHOD_NAME" value="hasModel" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ElectricTest.hasPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanCars_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ElectricTest" />
+      <option name="METHOD_NAME" value="hasPrice" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -617,17 +629,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.EngineTest.hasMake" />
-      <item itemvalue="JUnit.EngineTest.hasModel" />
-      <item itemvalue="JUnit.EngineTest.hasCapacity" />
       <item itemvalue="JUnit.TyreTest.hasSize" />
+      <item itemvalue="JUnit.ElectricTest.hasMake" />
+      <item itemvalue="JUnit.ElectricTest.hasModel" />
+      <item itemvalue="JUnit.ElectricTest.hasPrice" />
+      <item itemvalue="JUnit.All in CodeClanCars_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in CodeClanCars_test" />
+        <item itemvalue="JUnit.ElectricTest.hasPrice" />
+        <item itemvalue="JUnit.ElectricTest.hasModel" />
+        <item itemvalue="JUnit.ElectricTest.hasMake" />
         <item itemvalue="JUnit.TyreTest.hasSize" />
-        <item itemvalue="JUnit.EngineTest.hasCapacity" />
-        <item itemvalue="JUnit.EngineTest.hasModel" />
-        <item itemvalue="JUnit.EngineTest.hasMake" />
       </list>
     </recent_temporary>
   </component>
@@ -657,10 +671,18 @@
     <history-entry file="TyreTest_hasSize - 2018.10.17 at 14h 28m 35s.xml">
       <configuration name="TyreTest.hasSize" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ElectricTest_hasMake - 2018.10.17 at 14h 34m 48s.xml">
+      <configuration name="ElectricTest.hasMake" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElectricTest_hasModel - 2018.10.17 at 14h 35m 16s.xml">
+      <configuration name="ElectricTest.hasModel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElectricTest_hasPrice - 2018.10.17 at 14h 35m 49s.xml">
+      <configuration name="ElectricTest.hasPrice" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -672,7 +694,7 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32969698" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27896994" />
@@ -682,7 +704,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -726,13 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ElectricTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -831,9 +846,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Electric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Petrol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Hybrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="149">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
             <element signature="e#495#496#0" expanded="true" />
@@ -849,24 +885,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Hybrid.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ElectricTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Petrol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Electric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="342">
+          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
