@@ -501,7 +501,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in CodeClanCars_test">
+  <component name="RunManager" selected="JUnit.HybridTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -573,14 +573,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TyreTest.hasSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HybridTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanCars_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TyreTest" />
-      <option name="METHOD_NAME" value="hasSize" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="HybridTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -629,19 +629,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TyreTest.hasSize" />
       <item itemvalue="JUnit.ElectricTest.hasMake" />
       <item itemvalue="JUnit.ElectricTest.hasModel" />
       <item itemvalue="JUnit.ElectricTest.hasPrice" />
       <item itemvalue="JUnit.All in CodeClanCars_test" />
+      <item itemvalue="JUnit.HybridTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HybridTest" />
         <item itemvalue="JUnit.All in CodeClanCars_test" />
         <item itemvalue="JUnit.ElectricTest.hasPrice" />
         <item itemvalue="JUnit.ElectricTest.hasModel" />
         <item itemvalue="JUnit.ElectricTest.hasMake" />
-        <item itemvalue="JUnit.TyreTest.hasSize" />
       </list>
     </recent_temporary>
   </component>
