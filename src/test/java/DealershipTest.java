@@ -1,3 +1,4 @@
+import CodeClanCars.Customer;
 import CodeClanCars.Dealership;
 import Vehicles.Electric;
 import Vehicles.Hybrid;
@@ -10,6 +11,11 @@ import static org.junit.Assert.assertEquals;
 public class DealershipTest {
 
     Dealership dealership;
+
+    Customer customer;
+    Customer customerNoLicense;
+    Customer customerNoMoney;
+
     Petrol car1;
     Hybrid car2;
     Electric car3;
@@ -21,6 +27,10 @@ public class DealershipTest {
         car3 = new Electric("Toyota", "Prius", 4300.00, "Pink", 1.4);
 
         dealership = new Dealership("CodeClan Cars" );
+
+        customer = new Customer("Bob", 10000, true);
+        customerNoLicense = new Customer("Bob", 10000, false);
+        customerNoMoney = new Customer("Bob", 0, true);
     }
 
     @Test
@@ -47,7 +57,7 @@ public class DealershipTest {
         dealership.buyCar(car2);
         dealership.buyCar(car3);
         assertEquals(3, dealership.getVehicles().size());
-        dealership.sellCar(car1);
+        dealership.sellCar(car1, customer);
         assertEquals(2, dealership.getVehicles().size());
     }
 
@@ -59,14 +69,14 @@ public class DealershipTest {
     @Test
     public void canAddToTill() {
         dealership.buyCar(car1);
-        dealership.sellCar(car1);
+        dealership.sellCar(car1, customer);
     }
 
     @Test
     public void cannotSellIfCarDoesntExist() {
         dealership.buyCar(car1);
         dealership.buyCar(car3);
-        dealership.sellCar(car2);
+        dealership.sellCar(car2, customer);
         assertEquals(2, dealership.getVehicles().size());
     }
 }
