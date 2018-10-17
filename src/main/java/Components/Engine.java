@@ -4,8 +4,8 @@ public class Engine extends Component {
 
     private double capacity;
 
-    public Engine(String name, String make, String model, double capacity) {
-        super(name, make, model);
+    public Engine(String make, String model, double capacity) {
+        super(make, model);
         this.capacity = capacity;
     }
 

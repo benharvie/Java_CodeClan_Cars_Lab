@@ -1,18 +1,12 @@
 package Components;
 
 public abstract class Component {
-    private String name;
     private String make;
     private String model;
 
-    public Component(String name, String make, String model){
-        this.name = name;
+    public Component(String make, String model){
         this.make = make;
         this.model = model;
-    }
-
-    public String getName() {
-        return name;
     }
 
     public String getMake() {
