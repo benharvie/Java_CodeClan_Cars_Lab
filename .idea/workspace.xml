@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="841d894a-463e-47a9-984d-533e9cfc25f9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/CodeClanCars/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeClanCars/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CodeClanCars/Dealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeClanCars/Dealership.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DealershipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DealershipTest.java" afterDir="false" />
     </list>
@@ -114,11 +115,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CodeClanCars/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DealershipTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DealershipTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="73" selection-end-column="1" />
+            <state relative-caret-position="723">
+              <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#640#641#0" expanded="true" />
@@ -132,11 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dealership.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dealership.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CodeClanCars/Dealership.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="225">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#379#380#0" expanded="true" />
@@ -145,8 +155,6 @@
                 <element signature="e#484#485#0" expanded="true" />
                 <element signature="e#515#516#0" expanded="true" />
                 <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -473,8 +481,9 @@
         <option value="$PROJECT_DIR$/src/test/java/ElectricTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/HybridTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PetrolTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DealershipTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/CodeClanCars/Dealership.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DealershipTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CodeClanCars/Customer.java" />
       </list>
     </option>
   </component>
@@ -732,18 +741,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_CodeClanCars_test - 2018.10.17 at 14h 36m 54s.xml">
-      <configuration name="All in CodeClanCars_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HybridTest - 2018.10.17 at 14h 38m 51s.xml">
-      <configuration name="HybridTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PetrolTest - 2018.10.17 at 14h 39m 48s.xml">
-      <configuration name="PetrolTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DealershipTest_hasName - 2018.10.17 at 14h 52m 39s.xml">
-      <configuration name="DealershipTest.hasName" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DealershipTest_hasNoCars - 2018.10.17 at 14h 53m 15s.xml">
       <configuration name="DealershipTest.hasNoCars" configurationId="JUnit" />
     </history-entry>
@@ -762,6 +759,18 @@
     <history-entry file="DealershipTest_cannotSellIfCarDoesntExist - 2018.10.17 at 15h 00m 38s.xml">
       <configuration name="DealershipTest.cannotSellIfCarDoesntExist" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DealershipTest - 2018.10.17 at 15h 02m 10s.xml">
+      <configuration name="DealershipTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealershipTest - 2018.10.17 at 15h 05m 41s.xml">
+      <configuration name="DealershipTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealershipTest - 2018.10.17 at 15h 06m 00s.xml">
+      <configuration name="DealershipTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealershipTest - 2018.10.17 at 15h 06m 29s.xml">
+      <configuration name="DealershipTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -775,12 +784,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32969698" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27896994" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27896994" />
       <window_info anchor="bottom" id="Build" weight="0.27151516" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Gradle" />
@@ -824,13 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CodeClanCars/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1006,10 +1008,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CodeClanCars/Dealership.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DealershipTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="73" selection-end-column="1" />
+        <state relative-caret-position="723">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#640#641#0" expanded="true" />
@@ -1022,21 +1040,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CodeClanCars/Dealership.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CodeClanCars/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
         </state>
       </provider>
     </entry>

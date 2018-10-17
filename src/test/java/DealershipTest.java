@@ -5,8 +5,6 @@ import Vehicles.Petrol;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
-
 import static org.junit.Assert.assertEquals;
 
 public class DealershipTest {
@@ -37,37 +35,37 @@ public class DealershipTest {
 
     @Test
     public void addsCars() {
-        dealership.addCar(car1);
-        dealership.addCar(car2);
-        dealership.addCar(car3);
+        dealership.buyCar(car1);
+        dealership.buyCar(car2);
+        dealership.buyCar(car3);
         assertEquals(3, dealership.getVehicles().size());
     }
 
     @Test
     public void canSellCar() {
-        dealership.addCar(car1);
-        dealership.addCar(car2);
-        dealership.addCar(car3);
+        dealership.buyCar(car1);
+        dealership.buyCar(car2);
+        dealership.buyCar(car3);
         assertEquals(3, dealership.getVehicles().size());
         dealership.sellCar(car1);
         assertEquals(2, dealership.getVehicles().size());
     }
 
     @Test
-    public void tillStartsZero() {
-        assertEquals(0, dealership.getTill(), 0.01);
+    public void tillStarts50000() {
+        assertEquals(50000, dealership.getTill(), 0.01);
     }
 
     @Test
     public void canAddToTill() {
-        dealership.addCar(car1);
+        dealership.buyCar(car1);
         dealership.sellCar(car1);
     }
 
     @Test
     public void cannotSellIfCarDoesntExist() {
-        dealership.addCar(car1);
-        dealership.addCar(car3);
+        dealership.buyCar(car1);
+        dealership.buyCar(car3);
         dealership.sellCar(car2);
         assertEquals(2, dealership.getVehicles().size());
     }

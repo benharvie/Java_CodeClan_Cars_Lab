@@ -13,7 +13,7 @@ public class Dealership {
     public Dealership(String name){
         this.name = name;
         this.vehicles = new ArrayList<>();
-        this.till = 0;
+        this.till = 50000;
     }
 
     public String getName() {
@@ -28,8 +28,10 @@ public class Dealership {
         return till;
     }
 
-    public void addCar(Vehicle car) {
-        vehicles.add(car);
+    public void buyCar(Vehicle car) {
+        if(getTill() > car.getPrice()){
+            vehicles.add(car);
+        }
     }
 
     public void sellCar(Vehicle car) {
