@@ -501,7 +501,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HybridTest">
+  <component name="RunManager" selected="JUnit.PetrolTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -513,23 +513,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ElectricTest.hasMake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanCars_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ElectricTest" />
-      <option name="METHOD_NAME" value="hasMake" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -590,6 +573,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="PetrolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanCars_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PetrolTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -629,19 +629,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ElectricTest.hasMake" />
       <item itemvalue="JUnit.ElectricTest.hasModel" />
       <item itemvalue="JUnit.ElectricTest.hasPrice" />
       <item itemvalue="JUnit.All in CodeClanCars_test" />
       <item itemvalue="JUnit.HybridTest" />
+      <item itemvalue="JUnit.PetrolTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PetrolTest" />
         <item itemvalue="JUnit.HybridTest" />
         <item itemvalue="JUnit.All in CodeClanCars_test" />
         <item itemvalue="JUnit.ElectricTest.hasPrice" />
         <item itemvalue="JUnit.ElectricTest.hasModel" />
-        <item itemvalue="JUnit.ElectricTest.hasMake" />
       </list>
     </recent_temporary>
   </component>
