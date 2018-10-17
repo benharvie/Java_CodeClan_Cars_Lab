@@ -583,17 +583,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DealershipTest">
+  <component name="RunManager" selected="JUnit.CustomerTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="DealershipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanCars_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DealershipTest" />
-      <option name="METHOD_NAME" value="tillStartsZero" />
+      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -604,14 +604,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DealershipTest.addsCars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DealershipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanCars_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DealershipTest" />
-      <option name="METHOD_NAME" value="addsCars" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" value="tillStartsZero" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -711,19 +711,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DealershipTest.addsCars" />
       <item itemvalue="JUnit.DealershipTest.canSellCar" />
       <item itemvalue="JUnit.DealershipTest.tillStartsZero" />
       <item itemvalue="JUnit.DealershipTest" />
       <item itemvalue="JUnit.DealershipTest.cannotSellIfCarDoesntExist" />
+      <item itemvalue="JUnit.CustomerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerTest" />
         <item itemvalue="JUnit.DealershipTest" />
         <item itemvalue="JUnit.DealershipTest.cannotSellIfCarDoesntExist" />
         <item itemvalue="JUnit.DealershipTest.tillStartsZero" />
         <item itemvalue="JUnit.DealershipTest.canSellCar" />
-        <item itemvalue="JUnit.DealershipTest.addsCars" />
       </list>
     </recent_temporary>
   </component>

@@ -20,7 +20,7 @@ public class Customer {
         return wallet;
     }
 
-    public boolean isDrivingLicense() {
+    public boolean hasDrivingLicense() {
         return drivingLicense;
     }
 }
