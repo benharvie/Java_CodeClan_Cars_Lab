@@ -1,6 +1,8 @@
 package Vehicles;
 
-public abstract class Vehicle {
+import Interfaces.IPrice;
+
+public abstract class Vehicle implements IPrice {
 
     private String make;
     private String model;
